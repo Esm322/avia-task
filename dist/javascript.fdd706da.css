@@ -1,0 +1,23 @@
+@font-face{
+    font-family: "OpensSans SemiBold";
+    src: url("/OpenSans-SemiBold.d5becc0b.ttf");
+}
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("/OpenSans-Regular.7b3e96f0.ttf");
+}
+body{
+    background: #F3F7FA;
+}
+.logo{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+/*# sourceMappingURL=/javascript.fdd706da.css.map */

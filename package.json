@@ -4,7 +4,8 @@
   "description": "javascript pure application",
   "main": "javascript.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "parcel ./src/index.html -p 3222 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
   },
   "keywords": [
     "javascript",

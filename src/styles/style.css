@@ -1,0 +1,21 @@
+@font-face{
+    font-family: "OpensSans SemiBold";
+    src: url("fonts/static/OpenSans/OpenSans-SemiBold.ttf");
+}
+@font-face {
+    font-family: "OpenSans Regular";
+    src: url("fonts/static/OpenSans/OpenSans-Regular.ttf");
+}
+body{
+    background: #F3F7FA;
+}
+.logo{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    grid-gap: 20px;
+    justify-content: center;
+}
